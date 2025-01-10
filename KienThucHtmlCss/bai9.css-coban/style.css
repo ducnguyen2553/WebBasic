@@ -1,0 +1,19 @@
+h1 {
+    /*  màu chữ*/
+    color: red;
+    /* kiểu chữ */
+    font-style: italic;
+    /* font chữ */
+    font-family: Arial, Helvetica, sans-serif;
+    /* viết hoa , viết thường */
+    text-transform: uppercase;
+    /* căn dòng */
+    text-align:center;
+    /* cỡ chữ */
+    font-size: 18px;
+}
+
+p {
+    color: brown;
+    font-style: bold;
+}
