@@ -1,0 +1,31 @@
+body {
+    width: 650px;
+}
+
+strong {
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    background-color: blue;
+    margin: 30px;
+}
+
+
+a {
+    /* inline element : 1 số thuộc tính k adung đc :
+     padding bot top ,margin top bot , w h min min */
+    margin-top: 30px;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(216, 100, 224);
+    border-radius: 999px;
+    color: #000;
+    width: 100px;
+    padding: 8px 16px;
+    display: inline-block;
+}
+
+a:hover {
+    background-color: #000;
+    color: rgb(216, 100, 224);
+}

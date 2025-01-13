@@ -1,0 +1,21 @@
+/* 1 */
+*{
+    color: red;
+}
+/* 2 */
+h1{
+    color: blue;
+}
+/* 3 */
+.demo{
+    color: green;
+}
+/* 4 */
+#theh1{
+    color: yellow;
+}
+/* 5.inline */
+/* 6.!important */
+*{
+    color: green !important;
+}

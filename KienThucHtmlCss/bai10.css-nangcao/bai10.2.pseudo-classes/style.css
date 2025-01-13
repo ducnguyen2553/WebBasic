@@ -1,0 +1,100 @@
+/* 1.Tác dụng lên selector khi di chuột qua */
+/* .di-chuot:hover{
+    color: red;
+    font-size: 40px;
+} */
+
+/* 2.Tác dụng lên selector khi nhấn giữ chuột */
+.di-chuot:active {
+    color: red;
+    font-size: 40px;
+}
+
+/* 3.Tác dụng lên selector khi chưa click vào link */
+.click-me:link {
+    color: chocolate;
+}
+
+/* 4.Tác dụng lên selector khi đã click vào link */
+.click-me:visited {
+    color: red;
+}
+
+/* 5.empty áp dụng lên khi ko có gì bên trong */
+.div-elm:empty {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+
+.div-elm {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+/* .6 khi click vào link thì id của selector đó
+ sẽ chuyển vị trí đó với trạng thái mình đã đặt  */
+h2:target {
+    color: blue;
+}
+
+/* .7 tác động vào thẻ đầu tiên trong nhóm */
+.doan:first-child {
+    color: red;
+    font-size: 30px;
+}
+
+/* .8 tác động vào thẻ cuối cùng trong nhóm */
+.demo p:last-child {
+    color: blue;
+}
+
+/* .9 tác động vào thẻ chỉ định n */
+/* .demo p:nth-child(2){
+    color: pink;
+} */
+
+/* .10 tác động vào thẻ chẵn */
+/* .demo p:nth-child(even) {
+    color: pink;
+    font-size: 20px;
+} */
+
+/* .10 tác động vào thẻ lẻ */
+/* .demo p:nth-child(odd) {
+    color: green;
+    font-size: 25px;
+} */
+
+/* n=0 ->1
+n=1 ->4
+n=2->7
+*/
+.demo p:nth-child(3n+1) {
+    color: green;
+    font-size: 25px;
+}
+
+/* .11 thẻ duy nhất giống thẻ nhưng ko trong 1 nhóm */
+p:only-child {
+    color: red;
+    font-size: 30px;
+}
+
+/* p:first-of-type{
+    color: red;
+    font-size: 50px;
+} */
+
+/* --------- */
+
+.top:not(p) {
+    color: brown;
+    background-color: antiquewhite;
+}
+
+/* .12 tác động vào tất cả class trừ cái đầu tiên  */
+.top:not(:first-of-type) {
+    background-color: yellow;
+}

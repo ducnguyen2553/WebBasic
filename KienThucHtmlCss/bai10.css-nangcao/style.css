@@ -1,0 +1,31 @@
+/* h1 {
+    color: red;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+} */
+
+h1 {
+    color: blue;
+}
+
+p {
+    color: red;
+    font-size: 20px;
+}
+#doan-van-2{
+    font-size: 30px;
+}
+.demo{
+    font-style: italic;
+    color: black;
+}
+.demo2{
+    font-size: 40px;
+    background-color: antiquewhite;
+}
+
+.item_ul-1{
+    list-style: none;
+}

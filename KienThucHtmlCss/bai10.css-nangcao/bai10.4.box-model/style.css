@@ -1,0 +1,36 @@
+.demo{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    color: black;
+    padding: 20px 15px;
+    /* border-top: 10px  solid black;
+    border-right: 10px  dashed black;
+    border-bottom: 10px dotted black;
+    border-left: 10px double #000; */
+    border-width: 10px 20px 30px 25px;
+    border-style: solid dashed dotted double;
+    border-color: black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 40px;
+    /* border-radius: 20px; */
+}   
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    padding: 10px 20px 30px 40px;
+    border: 10px solid blue;
+    margin: 10px 20px 30px 40px;
+}
+.box2{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    padding: 10px 20px 30px 40px;
+    border: 10px solid pink;
+    margin-left: 150px;
+}

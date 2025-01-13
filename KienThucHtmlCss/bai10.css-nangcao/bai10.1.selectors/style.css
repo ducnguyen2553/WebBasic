@@ -1,0 +1,64 @@
+/* *{
+    color: red;
+} */
+
+.tieu-de-4 {
+    color: red;
+}
+
+h2.demo1 {
+    color: red;
+}
+
+.tieu-de-2 {
+    color: blue;
+}
+
+/* -------------------- */
+/* div p {
+    color: blue;
+} */
+
+.loichuc p {
+    font-size: 30px;
+}
+
+block p {
+    color: yellow;
+    font-style: italic;
+}
+
+/* h1 + h2 : h2 sát ngay dưới thẻ h1 */
+h1+h2 {
+    color: blueviolet;
+}
+
+.demo.demo2+h3,
+p {
+    color: blue;
+}
+
+h1~h3 {
+    color: red;
+}
+
+/* ------------ */
+
+/* a[href] {
+    color: red;
+}
+
+a[target="_blank"] {
+    color: blue;
+} */
+
+[title~="tuhoc.cc"]{
+    color: red;
+}
+/* [title^="pic"]{
+    color: pink;
+} */
+
+[title$="pic-abc-234"]{
+    color: pink;
+}

@@ -19,7 +19,7 @@ p {
 }
 
 img {
-    transition: 1.5s
+    transition: 2.5s
 }
 
 input:checked~img {
