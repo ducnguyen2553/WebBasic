@@ -1,0 +1,49 @@
+/* h1 {
+    /* color: rgb(21, 195, 85); */
+/* 0 - 255 */
+/* rgba : */
+/* color: rgba(255, 0, 0, 1);
+    background-color: violet; 
+    color: #0c2553;
+    background-color: #f0f;
+} */
+
+/* System Fonts with system-ui */
+/* body {
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+} */
+
+/* .box {
+    height: 200px;
+    width: 200px;
+    color: blue;
+     background-color: currentColor; 
+    outline: 5px solid currentColor;
+    outline-offset: 5px;
+}
+
+.box-child {
+    height: 50px;
+    width: 50px;
+    background-color: currentColor;
+} */
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+h1 {
+    font-family: "Roboto", sans-serif;
+}
+p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    line-height: 150%;
+}
+h1{
+    height: 120px;
+    background-color: blue;
+    line-height: 120px;
+}

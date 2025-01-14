@@ -1,0 +1,46 @@
+/* body{
+    background-color: grey;
+    height: 600px;
+}
+.box {
+    background-color: blue;
+    width: 60%;
+    height: 50%;
+}
+
+.box-child {
+    background-color: yellow;
+    width: 50%;
+} */
+
+/* .parent {
+    width: 80vw;
+    height: 80vh;
+    background-color: yellow;
+}
+.child{
+    width: 50vw;
+    height: 50vh;
+    background-color: violet;
+    border: 5px solid red;
+} */
+
+/* 1. Thẻ cha và con ko có fz 
+--> lấy theo fz root HTML */
+html{
+    font-size: 62.5%; 
+}
+
+.parent {
+    font-size: 4.4rem;
+}
+
+/* em = 2.n */
+.child {
+    /* 1rem = 16px */
+    font-size: 4rem;
+    width: 4rem;
+    height: 4rem;
+    background-color: violet;
+    border: 0.2rem solid #000;
+}
